@@ -68,4 +68,7 @@ footer {
 .footer-img {
     width: 40px;
     height: 34px;
+}
+.card-title {
+    font-size: 1.25rem;
 }   
