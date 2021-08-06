@@ -1,11 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const Projects = require('../utils/projects');
+const data = require('../utils/data');
 
 router.get('/', (req, res) => {
-    return res.render('index', {
-        Projects
-    });
+    data.getProjects((error, data)=>{
+        if(error) {
+            return res.send({
+                error
+            });
+        }
+        const Projects = JSON.parse(data);
+        return res.render('index', {
+            Projects
+        });
+    })
+    
 });
 
 module.exports = router;
