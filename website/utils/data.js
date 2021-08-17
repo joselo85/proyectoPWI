@@ -1,7 +1,7 @@
 const request = require('postman-request');
 
 const getProjects = (callback) => {
-    request('url', (error, res, body) => {
+    request('https://pdh-arq-api.herokuapp.com/projects', (error, res, body) => {
         if (error) {
             console.log('Error', error)
             return callback(error, undefined);

@@ -1,3 +1,5 @@
+// Este archivo no está en uso, se usó para cargar la informacion inicial y pruebas en local.
+
 const Projects = [
     {
         name: 'casaParana',
