@@ -1,5 +1,8 @@
 # PHD Arquitectura y diseño
 ## Proyecto final para curso de Programador Web Inicial - UTN
+### Resumen
+
+El proyecto es una página web dinámica creada para un estudio de arquitectura (PHD arquitectura & diseño). En el frontend se usó Bootstrap y CSS. Para la parte de backend, se usó express.js como framework, se integró una base de datos no relacional (mongoDB). Para manejar el formulario de contacto se usó formspree.io. Para los swipers en la página de details se usó swiper.js. Finalmente se subió todo a Heroku.
 
 ## Stack
 El proyecto está armado con NodeJS por lo cuál corre en un entorno de NGINX.
